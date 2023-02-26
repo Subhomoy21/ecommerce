@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website! </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAV BAR STARTS FROM HERE! -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">REGISTER</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">LOGIN</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">LOGOUT</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">CONTACT US</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link"><img src="./Image/hurricane.png" class="profile-icon" alt="profile"></a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link nav-brand">SUBHOMOY ENCLAVE</a>
+            </li>
+         <li class="nav-list">
+                <a href="cart.htm" class="nav-link">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Cart Product Values!
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+ <!-- NAV BAR ENDS HERE! -->
+    <main class="flex-center">
+       <div class="main-content">
+        <section class="product-details flex-center">
+            <div class="product-details-left flex-center">
+                <img src="./Image/headsets2.jpg"  class="product-details-img" alt="product1">
+            </div>
+            <div class="product-details-right">
+                <h3 class="product-name">Sony v-4 Headsets</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                   <strong>DESCRIPTIONS:</strong>
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                   Expedita a molestiae ipsam maiores, perferendis, magnam dolorem
+                   est quisquam veniam vel, labore dicta quaerat. Mollitia recusandae
+                   deserunt nemo ex sunt quaerat provident commodi similique ullam
+                    corrupti nulla, quos minus quas incidunt sint facere aut laboriosam?
+                    Ad debitis accusamus voluptas repudiandae ea dolorem reprehenderit
+                    praesentium ipsa aliquid, ut sit laudantium error necessitatibus 
+                    aspernatur neque vel a iste! Cumque debitis magni nemo, dolorem itaque
+                    dolore porro blanditiis officia delectus nam error aperiam, accusantium
+                    exercitationem a totam numquam dolores ratione perferendis laudantium 
+                    sunt commodi,sit hic ipsum voluptate. Sunt eaque saepe delectus vitae excepturi!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum assumenda 
+                    similique magni? Quidem, praesentium officia, minus sed quibusdam magnam obcaecat
+                    i quia cumque commodi voluptatibus, eum consectetur atque voluptas? Velit iusto
+                    laboriosam reiciendis ullam ad, facere, assumenda sapiente 
+                    adipisci nesciunt corrupti incidunt iste aperiam perspiciatis autem. 
+                    Pariatur eius facilis nisi.</p>
+                <h4 class="product-category">Category:Headphones</h4>
+                <h4 class="product-price">$225.54</h4>
+                <p class="product-rating"> <strong> Rating: 4.5</strong></p>
+                <button class="btn product-btn">ADD TO CART</button>
+                <button class="btn product-btn">BACK TO SHOPPING</button>
+            </div>
+        </section>
+       </div>
+    </main>
+
+
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">SUBSCRIBE US!</label>
+            <input type="email" id="subscribe" name= "subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">SUBSCRIBE US!</button>
+        </div>
+        <div>
+            <p>&COPY;Copyright 2023 Subhomoy Enclave. All rights reserved! </p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

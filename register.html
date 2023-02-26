@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website! </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAV BAR STARTS FROM HERE! -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">REGISTER</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">LOGIN</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">LOGOUT</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">CONTACT US</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link"><img src="./Image/hurricane.png" class="profile-icon" alt="profile"></a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link nav-brand">SUBHOMOY ENCLAVE</a>
+            </li>
+         <li class="nav-list">
+                <a href="cart.htm" class="nav-link">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Cart Product Values!
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+ <!-- NAV BAR ENDS HERE! -->
+    <main>
+        <body style="background-color: rgb(253, 5, 100);">
+            <h1 class="register-text" style="text-align: center;">REGISTER FORM</h1>
+            <form id="register-form" method="post">
+            <div>
+               <p class="input-label"> Full-name:</p>
+                <input class="itemss" type="text" name="Full-name" placeholder="FULLNAME"  required>
+            </div>
+            <div>
+                <p class="input-label"> E-mail:</p>
+                <input class="item" type="email" name="E-mail" placeholder="E-MAIL"  max="45" min="18">
+            </div>
+             <div>
+                <p class="input-label"> Age:</p>
+                <input class="itemss" type="number" name="Age" placeholder="Age" required>
+             </div>
+            <div>
+                <p class="input-label"> Password:</p>
+                <input class="itemss" type="password" name="password" placeholder="PASSWORD" required maxlength="8">
+            </div>
+            <div>
+                <p class="input-label"> Confirm-Password:</p>
+                <input class="itemss" type="password" name="CONFIRM-password" placeholder="CONFIRM-PASSWORD" required maxlength="8">
+            </div> 
+            <div>
+                <p class="input-label"> Gender:</p>
+                <input  type="radio" name="male" value="male">Male</input>
+                <input  type="radio" name="female" value="female">Female</input>
+                <input  type="radio" name="Others" value="Others">Others</input>
+            </div>
+            <div>
+                <p class="input-label"> Authentication purpose:</p>
+                <select name="Authentication questions" multiple>
+                    <option value="first-user id">What is your first user-id?</option>
+                    <option value="last word of your user-id">What is your last word of your user-id?</option>
+                    <option value="any  details">Did you remember anything about the user-id?</option>
+                </select>
+            </div>
+            <div>
+                <textarea class="itemss" name="answer"  rows="7" cols="30"></textarea>
+            </div>
+            <div>
+                <input id="check-box" type="checkbox" name="terms-conditions" value="accept"> I AGREE TO ACCEPT THE TERMS AND CONDITIONS!
+            </div>
+            <div>  
+                <input class="item-register" type="submit" value="REGISTER">
+            </div>
+            </form>
+    </main>
+
+
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">SUBSCRIBE US!</label>
+            <input type="email" id="subscribe" name= "subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">SUBSCRIBE US!</button>
+        </div>
+        <div>
+            <p>&COPY;Copyright 2023 Subhomoy Enclave. All rights reserved! </p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
